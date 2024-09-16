@@ -132,3 +132,4 @@ dist
 # local files
 testresult.png
 incomplete_reqs.txt
+*.txt
