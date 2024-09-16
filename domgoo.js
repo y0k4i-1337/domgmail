@@ -24,7 +24,7 @@ commander
     .option(
         "-o, --output <outputFile>",
         "Specify the output file name",
-        "valid_gmail.txt"
+        "valid_accounts.txt"
     )
     .option(
         "--test",
