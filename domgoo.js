@@ -10,16 +10,10 @@ const { executablePath } = require("puppeteer");
 
 commander
     .name("domgmail")
-    .description("A DOM-based GMail account enumerator")
+    .description("A DOM-based Google account enumerator")
     .version("0.1")
     .option("-u, --username <email>", "Single username to check")
     .option("-U, --usernames <file>", "Path to the usernames file")
-    .option(
-        "-w, --wait-time <ms>",
-        "Minimum time to wait for page to load in milliseconds",
-        1000,
-        parseInt
-    )
     .option(
         "-i, --interval <ms>",
         "Interval between enumeration attempts in milliseconds",
